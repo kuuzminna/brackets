@@ -20,7 +20,7 @@ class TestFailure {
 	}
 	@Test
 	fun testCase5() {
-		assertEquals(checkBrackets("dasdsadsadas]]]"), "13")
+		assertEquals(checkBrackets("hey]]]"), "4")
 	}
 	@Test
 	fun testCase6() {

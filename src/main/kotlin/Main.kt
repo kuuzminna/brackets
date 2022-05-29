@@ -6,7 +6,7 @@ fun checkBrackets(enteredString: String) : String {
 	var i = 0
 	for (c in enteredString) {
 		i++
-		var j = -1;
+		var j = -1
 		for (k in openedBrackets)
 			if (c == k) stack.push(c,i)
 		for (i in closedBrackets)
